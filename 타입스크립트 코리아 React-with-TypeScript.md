@@ -463,11 +463,11 @@ export default App;
 
 # Chapter 4. Server-side-rendering
 
-<img src="img/ssr">
+<img src="img/ssr.PNG">
 
 SPA는 트래픽을 감소시키고 사용자에게 더 나은 경험을 제공했다. 서버는 단지 JSON 파일만 보내주면 됐고, html을 그리는 역할은 클라이언트 측에서 자바스크립트가 수행하게 된 것이다. 이것이 바로 `클라이언트 사이드 렌더링(Client-side-rendering)`이다.
 
-그리고 `서버 사이드 렌더링(server-side-rendering)`은 
+반대로, `서버 사이드 렌더링(server-side-rendering)`은 요청시마다 새로고침이 일어나며 서버에 새로운 페이지에 대한 요청을 하는 방식이다.
 
 > Angular JS 와 Backbone JS 같은 Single Page를 생성하기 쉬운 JS 프레임워크들이 등장했고, 특히 Angular JS는 러닝 커브를 제외한 많은 장점들 때문에 큰 호옹을 얻음
 
@@ -475,3 +475,4 @@ SPA는 트래픽을 감소시키고 사용자에게 더 나은 경험을 제공�
 
 ### 근데 React랑 Server Side Rendering이랑 뭔상관입니까?
 
+React가 Server Side Rendering의 문제점에 대한 해결책을 많이 제시함.
